@@ -1355,9 +1355,9 @@
 	};
 
 	pf.setupRun = function() {
-		if ( !alreadyRun || isVwDirty || (DPR !== window.devicePixelRatio) ) {
-			updateMetrics();
-		}
+		// if ( !alreadyRun || isVwDirty || (DPR !== window.devicePixelRatio) ) {
+		// 	updateMetrics();
+		// }
 	};
 
 	// If picture is supported, well, that's awesome.

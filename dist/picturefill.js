@@ -1427,11 +1427,7 @@
 		}
 	};
 
-	pf.setupRun = function() {
-		if ( !alreadyRun || isVwDirty || (DPR !== window.devicePixelRatio) ) {
-			updateMetrics();
-		}
-	};
+	pf.setupRun = function() {};
 
 	// If picture is supported, well, that's awesome.
 	if ( pf.supPicture ) {
